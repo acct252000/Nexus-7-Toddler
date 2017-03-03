@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/exit_subactivity" android:title="Exit"
+        app:showAsAction="never"  />
+    <item android:id="@+id/toggle_back" android:title="Toggle Back Button"
+        app:showAsAction="never"  />
+    <item android:id="@+id/reduce_font" android:title="Reduce Font Size"
+        app:showAsAction="never"  />
+    <item android:id="@+id/increase_font" android:title="Increase Font Size"
+        app:showAsAction="never"  />
+</menu>

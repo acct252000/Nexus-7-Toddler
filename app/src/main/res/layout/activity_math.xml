@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:orientation = "vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.helenssc.android.toddlertabletpublic.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight = "1"
+            android:layout_height="wrap_content"
+            android:textSize = "125sp"
+            android:maxLines="1"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/first_number"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight = "1"
+            android:layout_height="wrap_content"
+            android:textSize="125sp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="bold"
+            android:text = "+"
+            android:id="@+id/operator"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight = "1"
+            android:layout_height="wrap_content"
+            android:textSize="125sp"
+            android:gravity="center"
+
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="bold"
+            android:id="@+id/second_number"/>
+        <TextView
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_weight = "1"
+            android:layout_height="wrap_content"
+            android:textSize="125sp"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="bold"
+            android:text = "="
+            android:id="@+id/equals_picture"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight = "10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="100sp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="bold"
+            android:background="@drawable/back"
+            android:id="@+id/guess_one"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:textSize="100sp"
+            android:fontFamily="sans-serif-medium"
+            android:background="@drawable/back"
+            android:textStyle="bold"
+            android:id="@+id/guess_two"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/back"
+            android:textSize="100sp"
+            android:layout_marginRight = "10dp"
+            android:layout_marginBottom = "10dp"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="bold"
+            android:id="@+id/guess_three"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="100sp"
+            android:layout_marginBottom = "10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/back"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="bold"
+            android:textColor="#00ff00"
+            android:id="@+id/guess_four"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+

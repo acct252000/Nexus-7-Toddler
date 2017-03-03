@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/menu_item_math_problems" android:title="Toggle Math Exercises"
+        app:showAsAction="never"  />
+    <item android:id="@+id/menu_item_quizzes" android:title="Toggle Quizzes"
+        app:showAsAction="never"  />
+    <item android:id="@+id/menu_item_swds" android:title="Toggle Sight Words"
+        app:showAsAction="never"  />
+    <item android:id="@+id/family_list" android:title="Create Family List"
+        app:showAsAction="never"  />
+    <item android:id="@+id/sight_word_list" android:title="Create Sight Word List"
+        app:showAsAction="never"  />
+
+
+
+
+</menu>

@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/family_container"
+    android:orientation = "vertical"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.helenssc.android.toddlertabletpublic.MainActivity"
+    tools:ignore="MergeRootFrame" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize = "20sp"
+            android:layout_margin="25dp"
+            android:text="Choose a picture and record a name to create your own list of family flashcards"
+           />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "horizontal">
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_margin="25dp"
+            android:id="@+id/family_picture"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            style="@style/CustomListButton"
+            android:text="Get Picture"
+            android:id="@+id/getpicture"/>
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:id="@+id/family_record_layout"
+    android:orientation = "horizontal">
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "horizontal">
+        <Button
+           style="@style/CustomListButton"
+            android:text="Save and Finish"
+            android:id="@+id/family_save"/>
+        <Button
+            style="@style/CustomListButton"
+            android:text="Save and Add Another"
+            android:id="@+id/family_save_continue"/>
+        </LinearLayout>
+
+
+</LinearLayout>
+

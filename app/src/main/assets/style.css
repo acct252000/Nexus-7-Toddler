@@ -1,0 +1,105 @@
+
+
+.text-center {
+
+text-align: center;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+
+}
+
+.rectangle {
+	width: 150px;
+	height: 100px;
+
+}
+
+
+.circle {
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.oval {
+	width: 150px;
+	height: 100px;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}
+
+.parallelogram {
+	width: 150px;
+	height: 100px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: red;
+}
+
+
+.red {
+
+	background-color: red;
+}
+
+.blue {
+
+	background-color: blue;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+
+.pink {
+	background-color: pink;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.green {
+	background-color: green;
+}
+
+.purple {
+	background-color: purple;
+}
+
+.brown {
+	background-color: brown;
+}
+
+.navy {
+	background-color: navy;
+}
+
+.gold {
+	background-color: gold;
+}
+
+
+
+
+
+.row {
+
+padding: 10px;
+
+}
+
+#scrollbox{   
+
+    height:1280px;    
+    overflow:auto; overflow-x:hidden;   
+} 
+

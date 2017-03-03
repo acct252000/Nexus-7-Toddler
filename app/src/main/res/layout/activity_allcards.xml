@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:orientation = "vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.helenssc.android.toddlertabletpublic.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/allcards_container2"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:src="@drawable/au"
+            android:id="@+id/alphcard"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="200dp"
+            android:gravity="center"
+            android:id="@+id/alphcardtext"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <ImageButton
+            android:id="@+id/allcards_backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/backbutton" />
+
+        <TextView
+            android:id="@+id/allcards_timerTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text = ""
+            android:textStyle = "bold"
+            android:textAlignment="center"
+            android:textColor = "@color/white"
+            android:textSize = "38sp"
+            android:background="@android:color/transparent"
+            />
+        <TextView
+            android:id="@+id/allcards_timerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text = ""
+            android:textStyle = "bold"
+            android:textAlignment="center"
+            android:textColor = "@color/white"
+            android:textSize = "38sp"
+            android:background="@android:color/transparent"
+            />
+
+
+        <ImageButton
+            android:id="@+id/allcards_forwardButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/forwardbutton" />
+    </RelativeLayout>
+
+</LinearLayout>
+

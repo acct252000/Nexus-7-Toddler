@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Toddler Tablet</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="description_image_1">Image Description</string>
+    <string name="card_back_description">test</string>
+    <string name="card_back_title"></string>
+    <string name="notification_one">I Love You!</string>
+    <string name="notification_one_text">I love you very much and I always will.  Just thought you should know that as you are playing with your tablet.</string>
+    <string name="notification_two">Shapes Are Fun</string>
+    <string name="notification_two_text">Shapes are really fun.  They include circles, squares and rectangles.  You can see them all around you in real life if you just look.</string>
+    <string name="notification_three">Macaroni and Cheese is Awesome</string>
+    <string name="notification_three_text">I was just thinking about how I love macaroni and cheese.  Not that nasty whole wheat butternut squash thing, the good stuff, right out of the blue box.  Day-glo orange.  Oh yeah.</string>
+    <string name="notification_four">Math</string>
+    <string name="notification_four_text">Math is for everybody.  Math is everywhere.  Math is near you.  Math is over there.</string>
+</resources>
